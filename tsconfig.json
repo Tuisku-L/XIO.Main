@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "target": "esnext",
+        "module": "node16",
+        "moduleResolution": "node16",
+        "importHelpers": true,
+        "jsx": "preserve",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "scripthost"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+        },
+    },
+    "include": [
+        "src/**/*",
+        "typings.d.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "build_src"
+    ]
+}
